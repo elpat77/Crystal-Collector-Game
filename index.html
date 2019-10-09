@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalsCollector</title>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Added a link to our external js-->
+    <script src="./assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="col-sm-12 text-center">Crystals Collector Game</h1>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <!-- Instructions -->
+            <div class="col-sm-12 ">
+                <div class="instructions text-center">
+                    <h3 class="instructions-header">Instructions</h3>
+                    <ul class="text-center">
+                        <li>There will be four crystals displayed as buttons on the page.</li>
+                        <li>The player will be shown a random number at the start of the game. </li>
+                        <li>When the player clicks on a crystal, it will add a specific amount of points to the player's
+                            total
+                            score.</li>
+                        <li> Your game will hide this amount until the player clicks a crystal.
+                            When they do click one, update the player's score counter.</li>
+                        <li> The player wins if their total score matches the random number from the beginning of the
+                            game.
+                        </li>
+
+                        <li>The player loses if their score goes above the random number.</li>
+                        <li> The game restarts whenever the player wins or loses.</li>
+                        <li> When the game begins again, the player should see a new random number. Also, all the
+                            crystals
+                            will
+                            have
+                            four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+                        </li>
+                        <li>The app should show the number of games the player wins and loses. To that end, do not
+                            refresh
+                            the
+                            page as a means to restart the game.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="containerTwo">
+            <div class="row">
+                <!-- Scroing -->
+                <div class="col-sm-6 ">
+                    <div class="match text-center">
+                        <h3 class="match-header"> Number to match: </h3>
+                        <!--  insert code to generate a random number here -->
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="statistics text-center">
+                        <div class="statistics text-center">
+                            <h3 class="statistics-header"> Your score so far is: </h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="containerThree">
+                <div class="row">
+                    <!-- Gems -->
+                    <div class="col-sm-12 ">
+                        <div class="gems text-center">
+                            <h3 class="gems-header"> Select a gem to reveal the points</h3>
+                            <!-- add icons and insert code to generate random numbers-->
+                            <button id="gem1">Gem1</button>
+                            <button id="gem2">Gem2</button>
+                            <button id="gem1">Gem3</button>
+                            <button id="gem2">Gem4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="containerFour">
+                <div class="row">
+                    <!-- Gems -->
+                    <div class="col-sm-12 ">
+                        <div class="statistics-header text-center">
+                            <h3 class="statistics-header"> Your stats so far are: </h3>
+                            <h4 class="wins"> Wins: </h4>
+                            <!--  insert code to track score here -->
+                            <h4 class="losses"> Losses: </h4>
+                            <!--  insert code to track score here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
