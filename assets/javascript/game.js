@@ -4,6 +4,7 @@ var max = 120;
 var match = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log('number to match ' + match);
 
+
 $(document).ready(function () {
     $("#match-update").text(match);
 });
@@ -14,7 +15,11 @@ $(document).ready(function () {
         counter += 1;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
-
+        if (counter === match) {
+            alert("You win!")
+        } else if (counter >= match) {
+            alert("You lose!!");
+        }
     });
 })
 
@@ -23,7 +28,11 @@ $(document).ready(function () {
         counter += 4;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
-
+        if (counter === match) {
+            alert("You win!")
+        } else if (counter >= match) {
+            alert("You lose!!");
+        }
     });
 })
 
@@ -33,7 +42,11 @@ $(document).ready(function () {
         counter += 7;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
-
+        if (counter === match) {
+            alert("You win!")
+        } else if (counter >= match) {
+            alert("You lose!!");
+        }
     });
 })
 
@@ -42,7 +55,11 @@ $(document).ready(function () {
         counter += 10;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
-
+        if (counter === match) {
+            alert("You win!")
+        } else if (counter >= match) {
+            alert("You lose!!");
+        }
     });
 })
 
