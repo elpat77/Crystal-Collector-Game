@@ -1,0 +1,26 @@
+/* body{
+    background: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+} */
+
+.gem1 {
+    width: 200px;
+    height: 200px;
+}
+
+.gem2 {
+    width: 200px;
+    height: 200px;
+}
+
+.gem3 {
+    width: 200px;
+    height: 200px;
+}
+
+.gem4 {
+    width: 200px;
+    height: 200px;
+}

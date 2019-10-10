@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $('.gem1').on('click', function () {
         // $('H1').hide();
