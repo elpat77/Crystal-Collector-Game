@@ -2,6 +2,8 @@ var counter = 0;
 var min = 19;
 var max = 120;
 var match = 0;
+var wins = 0;
+var losses = 0;
 
 updateGame();
 
@@ -16,6 +18,20 @@ function updateGame() {
     });
 }
 
+function updateWins() {
+    wins += 1;
+    $(document).ready(function () {
+        $("#wins").text(wins);
+    });
+}
+
+function updateLosses() {
+    losses += 1;
+    $(document).ready(function () {
+        $("#losses").text(losses);
+    });
+}
+
 $(document).ready(function () {
     $('.gem1').on('click', function () {
         counter += 1;
@@ -23,9 +39,12 @@ $(document).ready(function () {
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
+            updateWins();
             updateGame();
+
         } else if (counter >= match) {
-            alert("You lose!!");
+            alert("Sorry, you lost!!");
+            updateLosses();
             updateGame();
         }
 
@@ -39,9 +58,11 @@ $(document).ready(function () {
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
+            updateWins();
             updateGame();
         } else if (counter >= match) {
-            alert("You lose!!");
+            alert("Sorry, you lost!!");
+            updateLosses();
             updateGame();
         }
 
@@ -55,9 +76,11 @@ $(document).ready(function () {
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
+            updateWins();
             updateGame();
         } else if (counter >= match) {
-            alert("You lose!!");
+            alert("Sorry, you lost!!");
+            updateLosses();
             updateGame();
         }
 
@@ -71,9 +94,11 @@ $(document).ready(function () {
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
+            updateWins();
             updateGame();
         } else if (counter >= match) {
-            alert("You lose!!");
+            alert("Sorry, you lost!!");
+            updateLosses();
             updateGame();
         }
 
