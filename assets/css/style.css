@@ -2,14 +2,53 @@ body{
     background: url('./images/circles-dark.png');
     background-repeat: no-repeat;
     background-attachment: scroll;  
-    /* background-position: 50% 50%; */
     background-size: cover;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
+
+.jumbotron{
+    color: rgba(95, 69, 121, 0.815);
+}
+
+.instructions{
+    background-color: rgba(95, 69, 121, 0.815);
+}
+
+.gems{
+    background-color: rgba(103, 101, 105, 0.815);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.match{
+    background-color: rgba(47, 90, 119, 0.815);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.score{
+    background-color: rgba(54, 146, 199, 0.815);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.losses-header{
+    background-color: rgba(97, 25, 25, 0.815);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.wins-header{
+background-color: rgba(53, 100, 56, 0.815);
+margin-left: 100px;
+margin-right: 100px;
+
+}
 
 .gem1 {
     width: 150px;
@@ -32,11 +71,10 @@ ul {
 }
 
 .gems-header {
-    animation: blinker 2s linear infinite;
-  }
-  
-  @keyframes blinker {
+    animation: blinker 3s linear infinite;
+}  
+@keyframes blinker {
     50% {
-      opacity: 0;
+    opacity: 0;
     }
-  }
+}
