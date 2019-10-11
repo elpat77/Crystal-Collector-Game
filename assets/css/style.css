@@ -15,36 +15,36 @@ ul {
 }
 
 .instructions{
-    background-color: rgba(95, 69, 121, 0.815);
+    background-color: rgba(126,142,150, 0.815);
 }
 
 .gems{
-    background-color: rgba(103, 101, 105, 0.815);
+    background-color: rgba(95, 69, 121, 0.815);
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .match{
-    background-color: rgba(47, 90, 119, 0.815);
+    background-color: rgba(47, 167, 226, 0.815);
     margin-left: 100px;
     margin-right: 100px;
 
 }
 .score{
-    background-color: rgba(54, 146, 199, 0.815);
+    background-color: rgba(63, 205, 255, 0.815);
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .losses-header{
-    background-color: rgba(97, 25, 25, 0.815);
+    background-color: rgba(166,19,0, 0.815);
     margin-left: 100px;
     margin-right: 100px;
 
 }
 
 .wins-header{
-background-color: rgba(53, 100, 56, 0.815);
+background-color: rgba(78,153,107, 0.815);
 margin-left: 100px;
 margin-right: 100px;
 
