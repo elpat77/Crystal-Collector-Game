@@ -26,7 +26,7 @@
         <div class="row">
             <!-- Instructions -->
             <div class="col-sm-12 ">
-                <div class="instructions text-center">
+                <div class="instructions text-center text-white bg-dark py-2">
                     <h3 class="instructions-header">Instructions:</h3>
                     <ul class="text-center">
                         <li>There are four gems displayed at the bottom of the page, they each have a random value.</li>
@@ -45,59 +45,61 @@
         </div>
         <br>
         <br>
-        <div class="containerOne">
+        <div class="containerThree">
             <div class="row">
                 <!-- Gems -->
                 <div class="col-sm-12 ">
-                    <div class="statistics-header text-center">
-                        <h3> Wins: <span id="wins"></span></h3>
-                        <h3> Losses: <span id="losses"></span></h3>
+                    <div class="gems text-center text-white bg-secondary py-2 ">
+                        <h3 class="gems-header"> Click on a gem to start adding points</h3>
+                        <br>
+                        <!-- add icons and insert code to generate random points-->
+                        <img class="gem1" src="./assets/css/images/Sapphire.png" alt="Gem1">
+                        <img class="gem2" src="./assets/css/images/ruby.png" alt="Gem2">
+                        <img class="gem3" src="./assets/css/images/diamond.png" alt="Gem3">
+                        <img class="gem4" src="./assets/css/images/emerald.png" alt="Gem4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerTwo">
+            <div class="row">
+                <!-- Scroing -->
+                <div class="col-sm-12 ">
+                    <div class="match text-center bg-info my-1 py-2">
+                        <h3> Computer number: <span id="match-update"></span></h3>
+                        <!--  insert code to generate a random number here -->
+                    </div>
+                </div>
+                <div class="col-sm-12 ">
+                    <div class="score text-center">
+                        <div class="score text-center bg-info py-2">
+                            <h3>Your points: <span id="score-update"></span></h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <br>
         <br>
-        <div class="containerTwo">
+        <div class="containerOne">
             <div class="row">
-                <!-- Scroing -->
-                <div class="col-sm-6 ">
-                    <div class="match text-center">
-                        <h3> Computer number: <span id="match-update"></span></h3>
-                        <!--  insert code to generate a random number here -->
+                <!-- Gems -->
+                <div class="col-sm-12 ">
+                    <div class="wins-header text-center my-1 bg-success py-2">
+                        <h3> Wins: <span id="wins"></span></h3>
                     </div>
                 </div>
-                <div class="col-sm-6 ">
+                <div class="col-sm-12 ">
                     <div class="score text-center">
-                        <div class="score text-center">
-                            <h3>Your points: <span id="score-update"></span></h3>
-
+                        <div class="losses-header text-center bg-danger py-2">
+                            <h3> Losses: <span id="losses"></span></h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
-            <div class="containerThree">
-                <div class="row">
-                    <!-- Gems -->
-                    <div class="col-sm-12 ">
-                        <div class="gems text-center">
-                            <h3 class="gems-header"> Click on a gem to start adding points</h3>
-                            <br>
-                            <!-- add icons and insert code to generate random points-->
-                            <img class="gem1" src="./assets/css/images/Sapphire.png" alt="Gem1">
-                            <img class="gem2" src="./assets/css/images/ruby.png" alt="Gem2">
-                            <img class="gem3" src="./assets/css/images/diamond.png" alt="Gem3">
-                            <img class="gem4" src="./assets/css/images/emerald.png" alt="Gem4">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-
-
-    </body>
+        </div>
+</div>
+</div>
+</body>
 
 </html>
