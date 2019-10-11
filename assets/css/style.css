@@ -30,3 +30,13 @@ ul {
     width: 150px;
     height: 150px;
 }
+
+.gems-header {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
