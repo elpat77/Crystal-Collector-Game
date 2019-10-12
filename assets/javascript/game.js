@@ -4,10 +4,10 @@ var max = 120;
 var match = 0;
 var wins = 0;
 var losses = 0;
-var gem1 = 1;
-var gem2 = 1;
-var gem3 = 1;
-var gem4 = 1;
+var gem1 = 0;
+var gem2 = 0;
+var gem3 = 0;
+var gem4 = 0;
 
 updateGame();
 
@@ -23,10 +23,10 @@ function updateGame() {
 }
 
 function updateGem() {
-    gem1 = Math.floor(Math.random() * 12);
-    gem2 = Math.floor(Math.random() * 12);
-    gem3 = Math.floor(Math.random() * 12);
-    gem4 = Math.floor(Math.random() * 12);
+    gem1 = Math.floor(Math.random() * 11 + 1);
+    gem2 = Math.floor(Math.random() * 11 + 1);
+    gem3 = Math.floor(Math.random() * 11 + 1);
+    gem4 = Math.floor(Math.random() * 11 + 1);
 
     console.log("g1 " + gem1);
     console.log("g2 " + gem2);
