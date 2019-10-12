@@ -4,11 +4,12 @@ var max = 120;
 var match = 0;
 var wins = 0;
 var losses = 0;
-var gem1 = 0;
-
+var gem1 = 1;
+var gem2 = 1;
+var gem3 = 1;
+var gem4 = 1;
 
 updateGame();
-updateGem();
 
 function updateGame() {
     counter = 0;
@@ -22,12 +23,17 @@ function updateGame() {
 }
 
 function updateGem() {
-    gem1 = {
-        value: Math.floor(Math.random() * 10),
+    gem1 = Math.floor(Math.random() * 12);
+    gem2 = Math.floor(Math.random() * 12);
+    gem3 = Math.floor(Math.random() * 12);
+    gem4 = Math.floor(Math.random() * 12);
 
-    };
-    console.log("g1 " + gem1.value);
+    console.log("g1 " + gem1);
+    console.log("g2 " + gem2);
+    console.log("g3 " + gem3);
+    console.log("g4 " + gem4);
 }
+updateGem();
 
 function updateWins() {
     wins += 1;
@@ -45,7 +51,7 @@ function updateLosses() {
 
 $(document).ready(function () {
     $('.gem1').on('click', function () {
-        counter = counter + gem1.value;
+        counter = counter + gem1;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
         if (counter === match) {
@@ -66,17 +72,19 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.gem2').on('click', function () {
-        counter += 4;
+        counter = counter + gem2;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
             updateWins();
             updateGame();
+            updateGem();
         } else if (counter >= match) {
             alert("Sorry, you lost!!");
             updateLosses();
             updateGame();
+            updateGem();
         }
 
     });
@@ -84,17 +92,19 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.gem3').on('click', function () {
-        counter += 7;
+        counter = counter + gem3;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
             updateWins();
             updateGame();
+            updateGem();
         } else if (counter >= match) {
             alert("Sorry, you lost!!");
             updateLosses();
             updateGame();
+            updateGem();
         }
 
     });
@@ -102,17 +112,19 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.gem4').on('click', function () {
-        counter += 10;
+        counter = counter + gem4;
         $("#score-update").text(counter);
         console.log('your score is ' + counter);
         if (counter === match) {
             alert("You win!");
             updateWins();
             updateGame();
+            updateGem();
         } else if (counter >= match) {
             alert("Sorry, you lost!!");
             updateLosses();
             updateGame();
+            updateGem();
         }
 
     });
