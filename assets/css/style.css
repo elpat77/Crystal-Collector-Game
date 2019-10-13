@@ -24,6 +24,11 @@ ul {
     margin-right: 100px;
 }
 
+.gem1:hover, .gem2:hover, .gem3:hover, .gem4:hover{
+    transform: translate(-4px, -6px);
+}
+
+
 .match{
     background-color: rgba(47, 167, 226, 0.815);
     margin-left: 100px;
@@ -51,30 +56,31 @@ margin-right: 100px;
 }
 
 .gem1 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .gem2 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .gem3 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .gem4 {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .gems-header {
-    animation: blinker 3s linear infinite;
+    animation: blinker 5s linear infinite;
 }  
+
 @keyframes blinker {
-    50% {
+    40% {
     opacity: 0;
     }
 }
