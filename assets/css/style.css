@@ -76,11 +76,11 @@ margin-right: 100px;
 }
 
 .gems-header {
-    animation: blinker 5s linear infinite;
+    animation: blinker 4s linear infinite;
 }  
 
 @keyframes blinker {
-    40% {
+    50% {
     opacity: 0;
     }
 }
