@@ -25,7 +25,7 @@ ul {
 }
 
 .gem1:hover, .gem2:hover, .gem3:hover, .gem4:hover{
-    transform: translate(-4px, -6px);
+    transform: translate(-2px, -10px);
 }
 
 
