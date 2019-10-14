@@ -14,8 +14,16 @@ ul {
     color: rgba(95, 69, 121, 0.815);
 }
 
+.game-name{
+    font-family: 'Turret Road', cursive;
+    font-size: 75px;
+    font-weight: bold;
+}
+
 .instructions{
     background-color: rgba(126,142,150, 0.815);
+    font-family: 'Turret Road', cursive;
+    
 }
 
 .gems{
@@ -31,18 +39,21 @@ ul {
 
 .match{
     background-color: rgba(47, 167, 226, 0.815);
+    font-family: 'Inconsolata', monospace;
     margin-left: 100px;
     margin-right: 100px;
 
 }
 .score{
     background-color: rgba(63, 205, 255, 0.815);
+    font-family: 'Inconsolata', monospace;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .losses-header{
     background-color: rgba(166,19,0, 0.815);
+    font-family: 'Inconsolata', monospace;
     margin-left: 100px;
     margin-right: 100px;
 
@@ -50,6 +61,7 @@ ul {
 
 .wins-header{
 background-color: rgba(78,153,107, 0.815);
+font-family: 'Inconsolata', monospace;
 margin-left: 100px;
 margin-right: 100px;
 
@@ -77,6 +89,7 @@ margin-right: 100px;
 
 .gems-header {
     animation: blinker 4s linear infinite;
+    font-family: 'Chilanka', cursive;
 }  
 
 @keyframes blinker {
