@@ -1,7 +1,7 @@
 # Crystal-Collector-Game
 
 ### Welcome to the Crystal Collector Game. 
-### The objective of this homework was to create a game using HTML, Javascript, Jquery, Bootstrap and CSS, that would meet the following requirements:
+### This game was created using HTML, Javascript, Jquery, Bootstrap and CSS and had to meet the following requirements:
 
 [Click here to watch the demo](https://youtu.be/yNI0l2FMeCk).
 
